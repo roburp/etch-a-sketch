@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  height: 640px;
+  width: 640px;
+  border: 2px solid black;
+}
+
+.box {
+  flex-basis: 100% / 16;
+  /*border: 1px solid black;*/
+}
