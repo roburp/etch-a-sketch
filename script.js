@@ -33,7 +33,7 @@ function createGrid(size = 16) {
 
       let darkeningCount = 0;
 
-      box.addEventListener("mouseover", (e) => {
+      box.addEventListener("mouseenter", (e) => {
         if (colorful === false) {
           e.target.style.backgroundColor = "rgb(0, 0, 0)";
         } else {
